@@ -8,6 +8,8 @@ interface Products {
     product: string;
     rate: number;
     quantity: number;
+    discount: number;
+    total: number;
 }
 
 interface AddProductModalProps {

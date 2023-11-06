@@ -26,14 +26,62 @@ export function DebitNoteCard() {
     ];
 
     const products = [
-        { product: "Old durbar 750 ml", rate: 2564.0, quantity: 1 },
-        { product: "Old durbar 375 ml", rate: 2564.0, quantity: 1 },
-        { product: "Old durbar 175 ml", rate: 2564.0, quantity: 1 },
-        { product: "Khukuri 750 ml", rate: 2564.0, quantity: 1 },
-        { product: "Signature 750 ml", rate: 2564.0, quantity: 1 },
-        { product: "Khukuri 375 ml", rate: 2564.0, quantity: 1 },
-        { product: "Khukuri 175 ml", rate: 2564.0, quantity: 1 },
-        { product: "Yeti 750 ml", rate: 2564.0, quantity: 1 },
+        {
+            product: "Old durbar 750 ml",
+            rate: 2564.0,
+            quantity: 1,
+            total: 0,
+            discount: 0,
+        },
+        {
+            product: "Old durbar 375 ml",
+            rate: 2564.0,
+            quantity: 1,
+            total: 0,
+            discount: 0,
+        },
+        {
+            product: "Old durbar 175 ml",
+            rate: 2564.0,
+            quantity: 1,
+            total: 0,
+            discount: 0,
+        },
+        {
+            product: "Khukuri 750 ml",
+            rate: 2564.0,
+            quantity: 1,
+            total: 0,
+            discount: 0,
+        },
+        {
+            product: "Signature 750 ml",
+            rate: 2564.0,
+            quantity: 1,
+            total: 0,
+            discount: 0,
+        },
+        {
+            product: "Khukuri 375 ml",
+            rate: 2564.0,
+            quantity: 1,
+            total: 0,
+            discount: 0,
+        },
+        {
+            product: "Khukuri 175 ml",
+            rate: 2564.0,
+            quantity: 1,
+            total: 0,
+            discount: 0,
+        },
+        {
+            product: "Yeti 750 ml",
+            rate: 2564.0,
+            quantity: 1,
+            total: 0,
+            discount: 0,
+        },
     ];
 
     const handleKeyPress = () => {
