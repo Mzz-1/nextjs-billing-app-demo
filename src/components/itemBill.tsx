@@ -29,7 +29,13 @@ export function ItemBill() {
                         key={item.property}
                     >
                         <div className="flex justify-between">
-                            <p>
+                            <p
+                                className={`${
+                                    item.property === "Discount"
+                                        ? "py-[8px]"
+                                        : ""
+                                }`}
+                            >
                                 {item.property}{" "}
                                 {item.property === "Discount" && (
                                     <input
@@ -39,7 +45,16 @@ export function ItemBill() {
                                     />
                                 )}
                             </p>{" "}
-                            <p> {Math.floor(item.value)}</p>
+                            <p
+                                className={`${
+                                    item.property === "Discount"
+                                        ? "border-dotted border-y-2   w-[80px] text-right py-[8px]"
+                                        : ""
+                                }`}
+                            >
+                                {" "}
+                                {Math.floor(item.value)}
+                            </p>
                         </div>{" "}
                     </li>
                 ))}

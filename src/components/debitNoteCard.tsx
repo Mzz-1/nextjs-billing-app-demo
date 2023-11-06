@@ -16,7 +16,6 @@ export function DebitNoteCard() {
 
     const bill = useSelector((state: any) => state.bill);
     const billData = bill?.data;
-    console.log(billData, "bdata");
 
     const options = [
         "Globex Corporation",
@@ -88,13 +87,12 @@ export function DebitNoteCard() {
         setshowModal(!showModal);
     };
 
-    const handleAddProduct = () => {};
 
     return (
         <div className="max-w-[1000px] py-[24px] m-auto ">
             <Header
                 heading="New debit note"
-                bold={800}
+                bold={700}
                 border={1}
                 icon={<AiOutlineClose color={"red"} />}
             />
